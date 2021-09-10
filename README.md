@@ -56,3 +56,5 @@ gen_text = tokenizer.batch_decode(gen_tokens)
 print(gen_text)
 
 ```
+
+Credits for the repo (already in the License.MD) :- https://github.com/Xirider/finetune-gpt2xl
