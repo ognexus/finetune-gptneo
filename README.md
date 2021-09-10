@@ -4,6 +4,8 @@
 
 This 1.3B GPT Neo model is fine tuned on a custom dataset. The model training is done on GCP's AI Platform JupyterLab Notebook. 
 
+https://cloud.google.com/notebooks
+
 I have used a 60GB RAM and 1 GPU (NVIDIA Tesla T4 - 16GB). 
 
 ```markdown
