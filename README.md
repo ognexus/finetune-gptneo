@@ -6,7 +6,7 @@ This 1.3B GPT Neo model is fine tuned on a custom dataset. The model training is
 
 https://cloud.google.com/notebooks
 
-I have used a 16-core 60GB RAM and 1 GPU (NVIDIA Tesla P4 - 16GB). You can choose between T4 and P4 on GCP. 
+I have used a 16-core 60GB RAM and 1 GPU (NVIDIA Tesla T4 - 16GB). You can choose between T4 and P4 on GCP. 
 
 ```markdown
 start = time.time()
