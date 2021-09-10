@@ -1,12 +1,4 @@
-# Guide: Finetune GPT2-XL (1.5 Billion Parameters) and GPT-NEO (2.7 Billion Parameters) on a single GPU with Huggingface Transformers using DeepSpeed
-
-
-
-- Finetuning large language models like GPT2-xl is often difficult, as these models are too big to fit on a single GPU.
-- This guide explains how to finetune GPT2-xl and GPT-NEO (2.7B Parameters) with just one command of the Huggingface Transformers library on a single GPU.
-- This is made possible by using the DeepSpeed library and gradient checkpointing to lower the required GPU memory usage of the model.
-- I also explain how to set up a server on Google Cloud with a V100 GPU (16GB VRAM), that you can use if you don't have a GPU with enough VRAM (16+ GB) or you don't have enough enough normal RAM (60 GB+).
-
+# Finetune GPT Neo 1.3B Model using custom Dataset on AI Platform Notebook
 
 ## Finetune GPT-NEO (1.3B Parameters)
 
