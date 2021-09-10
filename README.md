@@ -2,6 +2,10 @@
 
 ## Finetune GPT-NEO (1.3B Parameters)
 
+This 1.3B GPT Neo model is fine tuned on a custom dataset. The model training is done on GCP's AI Platform JupyterLab Notebook. 
+
+I have used a 60GB RAM and 1 GPU (NVIDIA Tesla T4 - 16GB). 
+
 ```markdown
 start = time.time()
 print("Training Started")
